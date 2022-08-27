@@ -4,3 +4,7 @@ A python script using PIL lib to get color of every pixel in an image.
 Can easily be exported as csv with redirection char:
 
 `py main.py <img_path> > pixels.csv`
+
+You can install depedencies running:
+
+`pip install -r requirements.txt`
