@@ -6,5 +6,5 @@ def get_img(img_path):
     except:
         print("Error: Image path is invalid !")
         exit(84)
-    converted_img = img.convert("RGB")
+    converted_img = img.convert('RGB')
     return converted_img

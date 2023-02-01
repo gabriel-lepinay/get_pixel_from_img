@@ -1,0 +1,5 @@
+Old 
+__pycache__
+*.csv
+*.png
+!img/*
