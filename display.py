@@ -5,7 +5,7 @@ def display_snake_pixel(img, height_max, width_max):
                 temp_pixel = img.getpixel((width, height))
                 print("{}, {}, {}".format(temp_pixel[0], temp_pixel[1], temp_pixel[2]))
         else:
-            for width in range(width_max - 1, 0, -1):
+            for width in range(width_max - 1, -1, -1):
                 temp_pixel = img.getpixel((width, height))
                 print("{}, {}, {}".format(temp_pixel[0], temp_pixel[1], temp_pixel[2]))
 
